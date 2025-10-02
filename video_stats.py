@@ -7,7 +7,7 @@ load_dotenv()
 api_key = os.getenv("api_key")
 
 # channel_handle
-channel_name = 'VillageFoodSecrets'
+channel_name = 'HaseebAli'
 
 def get_playlist_id():
 
@@ -54,7 +54,38 @@ def get_video_ids(playlist_id):
             print(f"Error: {e}")
     return video_ids
 
+def extract_video_data(video_ids):
+
+    video_data = []
+
+    for video_id in video_ids:
+        url = f'https://youtube.googleapis.com/youtube/v3/videos?part=contentDetails&part=snippet&part=statistics&id={video_id}&key={api_key}'
+        try:
+            response = requests.get(url)
+            response.raise_for_status()
+            data = response.json()
+
+            if 'items' in data and len(data['items']) > 0:
+                item = data['items'][0]
+                video_info = {
+                    'video_id': video_id,
+                    'title': item['snippet']['title'],
+                    'publishedAt': item['snippet']['publishedAt'],
+                    'viewCount': item['statistics'].get('viewCount', 0),
+                    'likeCount': item['statistics'].get('likeCount', 0),
+                    'commentCount': item['statistics'].get('commentCount', 0),
+                    'duration': item['contentDetails']['duration']
+                }
+                video_data.append(video_info)
+
+        except requests.exceptions.RequestException as e:
+            print(f"Error: {e}")
+    
+    return video_data
+
 
 if __name__ == "__main__":
     playlist_id = get_playlist_id()
-    print(get_video_ids(playlist_id))
+    video_ids = get_video_ids(playlist_id)
+    video_data = extract_video_data(video_ids)
+    print(f"Extracted data for {len(video_data)} videos.")
