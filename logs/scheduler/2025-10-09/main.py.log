@@ -1,0 +1,1058 @@
+[2025-10-09T06:55:31.959+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:55:31.961+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:55:31.967+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:55:31.966+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:55:32.000+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:55:32.020+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.081 seconds
+[2025-10-09T06:55:43.255+0000] {processor.py:161} INFO - Started process (PID=188) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:55:43.257+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:55:43.262+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:55:43.262+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:55:43.401+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:55:43.421+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.181 seconds
+[2025-10-09T06:56:13.741+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:56:13.742+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:56:13.746+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:56:13.745+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:56:13.798+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:56:13.815+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.082 seconds
+[2025-10-09T06:56:24.959+0000] {processor.py:161} INFO - Started process (PID=196) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:56:24.960+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:56:24.962+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:56:24.962+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:56:25.027+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:56:25.044+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.093 seconds
+[2025-10-09T06:56:55.313+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:56:55.315+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:56:55.317+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:56:55.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:56:55.364+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:56:55.378+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.073 seconds
+[2025-10-09T06:57:13.581+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:57:13.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:57:13.585+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:57:13.584+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:57:13.600+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:57:13.599+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 13
+    max_active_runs': 1,
+                   ^
+SyntaxError: unterminated string literal (detected at line 13)
+[2025-10-09T06:57:13.601+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:57:13.622+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.049 seconds
+[2025-10-09T06:57:27.812+0000] {processor.py:161} INFO - Started process (PID=211) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:57:27.814+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:57:27.830+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:57:27.820+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:57:27.856+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:57:27.854+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 13
+    max_active_runs': 1,
+                   ^
+SyntaxError: unterminated string literal (detected at line 13)
+[2025-10-09T06:57:27.857+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:57:27.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.157 seconds
+[2025-10-09T06:57:33.022+0000] {processor.py:161} INFO - Started process (PID=212) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:57:33.024+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:57:33.027+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:57:33.026+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:57:33.049+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:57:33.048+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 13
+    max_active_runs': 1,
+                   ^
+SyntaxError: unterminated string literal (detected at line 13)
+[2025-10-09T06:57:33.050+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:57:33.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.095 seconds
+[2025-10-09T06:58:03.355+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:58:03.358+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:58:03.362+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:58:03.361+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:58:03.387+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:58:03.386+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 13
+    max_active_runs': 1,
+                   ^
+SyntaxError: unterminated string literal (detected at line 13)
+[2025-10-09T06:58:03.389+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:58:03.422+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.079 seconds
+[2025-10-09T06:58:33.747+0000] {processor.py:161} INFO - Started process (PID=226) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:58:33.749+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:58:33.751+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:58:33.751+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:58:33.766+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:58:33.765+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 13
+    max_active_runs': 1,
+                   ^
+SyntaxError: unterminated string literal (detected at line 13)
+[2025-10-09T06:58:33.767+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:58:33.797+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.057 seconds
+[2025-10-09T06:59:04.070+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:59:04.072+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:59:04.075+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:59:04.074+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:59:04.090+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:59:04.089+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 13
+    max_active_runs': 1,
+                   ^
+SyntaxError: unterminated string literal (detected at line 13)
+[2025-10-09T06:59:04.091+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:59:04.117+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.054 seconds
+[2025-10-09T06:59:34.325+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/main.py
+[2025-10-09T06:59:34.327+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T06:59:34.329+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:59:34.329+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T06:59:34.348+0000] {logging_mixin.py:188} INFO - [2025-10-09T06:59:34.347+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 13
+    max_active_runs': 1,
+                   ^
+SyntaxError: unterminated string literal (detected at line 13)
+[2025-10-09T06:59:34.349+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T06:59:34.371+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.054 seconds
+[2025-10-09T07:00:04.681+0000] {processor.py:161} INFO - Started process (PID=247) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:00:04.682+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:00:04.684+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:00:04.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:00:04.700+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:00:04.699+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 13
+    max_active_runs': 1,
+                   ^
+SyntaxError: unterminated string literal (detected at line 13)
+[2025-10-09T07:00:04.701+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:00:04.727+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.053 seconds
+[2025-10-09T07:00:09.834+0000] {processor.py:161} INFO - Started process (PID=254) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:00:09.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:00:09.839+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:00:09.838+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:00:09.928+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:00:09.922+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 12, in load_tzdata
+    return importlib.resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.10/importlib/resources.py", line 46, in open_binary
+    return reader.open_resource(resource)
+  File "/usr/local/lib/python3.10/importlib/abc.py", line 433, in open_resource
+    return self.files().joinpath(resource).open('rb')
+  File "/usr/local/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.10/site-packages/tzdata/zoneinfo/UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 24, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 14, in <module>
+    'start_date': datetime(2023, 10, 9, tzinfo=pendulum.timezone('UTC+5')),
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: UTC+5
+[2025-10-09T07:00:09.929+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:00:09.955+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.133 seconds
+[2025-10-09T07:00:40.424+0000] {processor.py:161} INFO - Started process (PID=261) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:00:40.425+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:00:40.428+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:00:40.428+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:00:40.483+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:00:40.477+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 12, in load_tzdata
+    return importlib.resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.10/importlib/resources.py", line 46, in open_binary
+    return reader.open_resource(resource)
+  File "/usr/local/lib/python3.10/importlib/abc.py", line 433, in open_resource
+    return self.files().joinpath(resource).open('rb')
+  File "/usr/local/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.10/site-packages/tzdata/zoneinfo/UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 24, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 14, in <module>
+    'start_date': datetime(2023, 10, 9, tzinfo=pendulum.timezone('UTC+5')),
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: UTC+5
+[2025-10-09T07:00:40.484+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:00:40.515+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.098 seconds
+[2025-10-09T07:01:10.757+0000] {processor.py:161} INFO - Started process (PID=268) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:01:10.758+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:01:10.760+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:01:10.760+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:01:10.814+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:01:10.807+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 12, in load_tzdata
+    return importlib.resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.10/importlib/resources.py", line 46, in open_binary
+    return reader.open_resource(resource)
+  File "/usr/local/lib/python3.10/importlib/abc.py", line 433, in open_resource
+    return self.files().joinpath(resource).open('rb')
+  File "/usr/local/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.10/site-packages/tzdata/zoneinfo/UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 24, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 14, in <module>
+    'start_date': datetime(2023, 10, 9, tzinfo=pendulum.timezone('UTC+5')),
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: UTC+5
+[2025-10-09T07:01:10.815+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:01:10.839+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.090 seconds
+[2025-10-09T07:01:33.097+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:01:33.098+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:01:33.101+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:01:33.101+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:01:33.119+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:01:33.118+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 17
+    with DAG(
+            ^
+SyntaxError: '(' was never closed
+[2025-10-09T07:01:33.120+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:01:33.150+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.061 seconds
+[2025-10-09T07:02:03.455+0000] {processor.py:161} INFO - Started process (PID=276) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:02:03.456+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:02:03.458+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:02:03.458+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:02:03.477+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:02:03.476+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 17
+    with DAG(
+            ^
+SyntaxError: '(' was never closed
+[2025-10-09T07:02:03.478+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:02:03.503+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.055 seconds
+[2025-10-09T07:02:12.582+0000] {processor.py:161} INFO - Started process (PID=283) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:02:12.583+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:02:12.586+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:02:12.586+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:02:12.604+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:02:12.604+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 17
+    with DAG(
+            ^
+SyntaxError: '(' was never closed
+[2025-10-09T07:02:12.605+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:02:12.625+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.051 seconds
+[2025-10-09T07:02:31.958+0000] {processor.py:161} INFO - Started process (PID=284) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:02:31.970+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:02:31.977+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:02:31.976+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:02:32.220+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:02:32.218+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 17
+    with DAG(
+            ^
+SyntaxError: '(' was never closed
+[2025-10-09T07:02:32.224+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:02:32.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.359 seconds
+[2025-10-09T07:02:57.209+0000] {processor.py:161} INFO - Started process (PID=291) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:02:57.211+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:02:57.215+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:02:57.214+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:02:57.236+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:02:57.235+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 17
+    with DAG(
+            ^
+SyntaxError: '(' was never closed
+[2025-10-09T07:02:57.238+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:02:57.271+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.072 seconds
+[2025-10-09T07:03:22.473+0000] {processor.py:161} INFO - Started process (PID=298) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:03:22.476+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:03:22.479+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:03:22.478+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:03:22.606+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:03:22.597+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 12, in load_tzdata
+    return importlib.resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.10/importlib/resources.py", line 46, in open_binary
+    return reader.open_resource(resource)
+  File "/usr/local/lib/python3.10/importlib/abc.py", line 433, in open_resource
+    return self.files().joinpath(resource).open('rb')
+  File "/usr/local/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.10/site-packages/tzdata/zoneinfo/UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 24, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 14, in <module>
+    'start_date': datetime(2023, 10, 9, tzinfo=pendulum.timezone('UTC+5')),
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: UTC+5
+[2025-10-09T07:03:22.608+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:03:22.652+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.195 seconds
+[2025-10-09T07:03:52.837+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:03:52.839+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:03:52.842+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:03:52.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:03:52.922+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:03:52.915+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 12, in load_tzdata
+    return importlib.resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.10/importlib/resources.py", line 46, in open_binary
+    return reader.open_resource(resource)
+  File "/usr/local/lib/python3.10/importlib/abc.py", line 433, in open_resource
+    return self.files().joinpath(resource).open('rb')
+  File "/usr/local/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.10/site-packages/tzdata/zoneinfo/UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 24, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 14, in <module>
+    'start_date': datetime(2023, 10, 9, tzinfo=pendulum.timezone('UTC+5')),
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: UTC+5
+[2025-10-09T07:03:52.923+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:03:52.956+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.127 seconds
+[2025-10-09T07:04:23.175+0000] {processor.py:161} INFO - Started process (PID=313) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:04:23.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:04:23.178+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:04:23.178+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:04:23.226+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:04:23.221+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 12, in load_tzdata
+    return importlib.resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.10/importlib/resources.py", line 46, in open_binary
+    return reader.open_resource(resource)
+  File "/usr/local/lib/python3.10/importlib/abc.py", line 433, in open_resource
+    return self.files().joinpath(resource).open('rb')
+  File "/usr/local/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.10/site-packages/tzdata/zoneinfo/UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 24, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 14, in <module>
+    'start_date': datetime(2023, 10, 9, tzinfo=pendulum.timezone('UTC+5')),
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: UTC+5
+[2025-10-09T07:04:23.227+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:04:23.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.091 seconds
+[2025-10-09T07:04:53.513+0000] {processor.py:161} INFO - Started process (PID=320) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:04:53.515+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:04:53.517+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:04:53.517+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:04:53.579+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:04:53.573+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 12, in load_tzdata
+    return importlib.resources.open_binary(package_name, resource_name)
+  File "/usr/local/lib/python3.10/importlib/resources.py", line 46, in open_binary
+    return reader.open_resource(resource)
+  File "/usr/local/lib/python3.10/importlib/abc.py", line 433, in open_resource
+    return self.files().joinpath(resource).open('rb')
+  File "/usr/local/lib/python3.10/pathlib.py", line 1119, in open
+    return self._accessor.open(self, mode, buffering, encoding, errors,
+FileNotFoundError: [Errno 2] No such file or directory: '/home/airflow/.local/lib/python3.10/site-packages/tzdata/zoneinfo/UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 65, in __new__
+    return super().__new__(cls, key)  # type: ignore[call-arg]
+  File "/usr/local/lib/python3.10/zoneinfo/_common.py", line 24, in load_tzdata
+    raise ZoneInfoNotFoundError(f"No time zone found with key {key}")
+zoneinfo._common.ZoneInfoNotFoundError: 'No time zone found with key UTC+5'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 14, in <module>
+    'start_date': datetime(2023, 10, 9, tzinfo=pendulum.timezone('UTC+5')),
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/__init__.py", line 86, in timezone
+    return Timezone(name)
+  File "/home/airflow/.local/lib/python3.10/site-packages/pendulum/tz/timezone.py", line 67, in __new__
+    raise InvalidTimezone(key)
+pendulum.tz.exceptions.InvalidTimezone: UTC+5
+[2025-10-09T07:04:53.579+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:04:53.601+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.096 seconds
+[2025-10-09T07:04:58.623+0000] {processor.py:161} INFO - Started process (PID=321) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:04:58.624+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:04:58.626+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:04:58.626+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:04:58.703+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:04:58.697+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:04:58.703+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:04:58.725+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.111 seconds
+[2025-10-09T07:05:28.936+0000] {processor.py:161} INFO - Started process (PID=328) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:05:28.938+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:05:28.940+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:05:28.940+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:05:28.993+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:05:28.987+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:05:28.993+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:05:29.015+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.087 seconds
+[2025-10-09T07:05:59.250+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:05:59.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:05:59.262+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:05:59.261+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:05:59.369+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:05:59.361+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:05:59.370+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:05:59.414+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.182 seconds
+[2025-10-09T07:06:29.680+0000] {processor.py:161} INFO - Started process (PID=343) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:06:29.681+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:06:29.684+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:06:29.684+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:06:29.755+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:06:29.749+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:06:29.755+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:06:29.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.104 seconds
+[2025-10-09T07:06:59.997+0000] {processor.py:161} INFO - Started process (PID=351) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:06:59.998+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:07:00.003+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:07:00.003+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:07:00.096+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:07:00.089+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:07:00.097+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:07:00.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.136 seconds
+[2025-10-09T07:07:30.373+0000] {processor.py:161} INFO - Started process (PID=359) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:07:30.374+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:07:30.377+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:07:30.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:07:30.436+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:07:30.430+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:07:30.436+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:07:30.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.093 seconds
+[2025-10-09T07:07:35.563+0000] {processor.py:161} INFO - Started process (PID=360) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:07:35.567+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:07:35.571+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:07:35.570+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:07:35.691+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:07:35.687+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:07:35.692+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:07:35.728+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.176 seconds
+[2025-10-09T07:08:05.841+0000] {processor.py:161} INFO - Started process (PID=367) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:08:05.842+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:08:05.845+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:08:05.844+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:08:05.905+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:08:05.901+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:08:05.906+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:08:05.929+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.096 seconds
+[2025-10-09T07:08:36.136+0000] {processor.py:161} INFO - Started process (PID=374) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:08:36.137+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:08:36.140+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:08:36.139+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:08:36.196+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:08:36.191+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:08:36.196+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:08:36.219+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.091 seconds
+[2025-10-09T07:09:01.514+0000] {processor.py:161} INFO - Started process (PID=381) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:09:01.516+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:09:01.518+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:09:01.518+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:09:01.590+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:09:01.584+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:09:01.591+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:09:01.614+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.108 seconds
+[2025-10-09T07:09:28.855+0000] {processor.py:161} INFO - Started process (PID=388) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:09:28.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:09:28.860+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:09:28.860+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:09:28.946+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:09:28.940+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:09:28.947+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:09:28.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.126 seconds
+[2025-10-09T07:09:59.269+0000] {processor.py:161} INFO - Started process (PID=395) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:09:59.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:09:59.272+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:09:59.272+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:09:59.327+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:09:59.322+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:09:59.328+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:09:59.352+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.089 seconds
+[2025-10-09T07:10:29.631+0000] {processor.py:161} INFO - Started process (PID=402) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:10:29.633+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:10:29.635+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:10:29.635+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:10:29.692+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:10:29.687+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:10:29.693+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:10:29.712+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.088 seconds
+[2025-10-09T07:11:00.022+0000] {processor.py:161} INFO - Started process (PID=410) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:11:00.023+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:11:00.025+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:11:00.025+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:11:00.086+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:11:00.081+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:11:00.087+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:11:00.106+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.097 seconds
+[2025-10-09T07:11:30.409+0000] {processor.py:161} INFO - Started process (PID=417) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:11:30.412+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:11:30.415+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:11:30.414+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:11:30.483+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:11:30.479+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:11:30.483+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:11:30.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.112 seconds
+[2025-10-09T07:12:00.745+0000] {processor.py:161} INFO - Started process (PID=424) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:12:00.746+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:12:00.749+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:00.748+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:12:00.819+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:00.814+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:12:00.820+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:12:00.843+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.107 seconds
+[2025-10-09T07:12:31.125+0000] {processor.py:161} INFO - Started process (PID=431) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:12:31.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:12:31.129+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:31.129+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:12:31.183+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:31.178+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/main.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/main.py", line 30, in <module>
+    playlist_id >> video_ids >> extracted_data >> save_to_json
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 104, in __rshift__
+    self.set_downstream(other)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/xcom_arg.py", line 157, in set_downstream
+    operator.set_downstream(task_or_task_list, edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 262, in set_downstream
+    self._set_relatives(task_or_task_list, upstream=False, edge_modifier=edge_modifier)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskmixin.py", line 214, in _set_relatives
+    task_object.update_relative(self, not upstream, edge_modifier=edge_modifier)
+AttributeError: '_TaskDecorator' object has no attribute 'update_relative'
+[2025-10-09T07:12:31.184+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:12:31.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.088 seconds
+[2025-10-09T07:12:54.441+0000] {processor.py:161} INFO - Started process (PID=438) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:12:54.443+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:12:54.446+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:54.445+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:12:54.547+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:12:55.000+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:54.999+0000] {override.py:1829} INFO - Created Permission View: can edit on DAG:youtube_data_pipeline
+[2025-10-09T07:12:55.013+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:55.012+0000] {override.py:1829} INFO - Created Permission View: can delete on DAG:youtube_data_pipeline
+[2025-10-09T07:12:55.023+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:55.023+0000] {override.py:1829} INFO - Created Permission View: can read on DAG:youtube_data_pipeline
+[2025-10-09T07:12:55.024+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:55.024+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T07:12:55.042+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:55.041+0000] {dag.py:3118} INFO - Creating ORM DAG for youtube_data_pipeline
+[2025-10-09T07:12:55.062+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:12:55.062+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-07 09:00:00+00:00, run_after=2025-10-08 09:00:00+00:00
+[2025-10-09T07:12:55.092+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.662 seconds
+[2025-10-09T07:13:25.486+0000] {processor.py:161} INFO - Started process (PID=457) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:13:25.491+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:13:25.499+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:13:25.498+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:13:25.644+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:13:25.721+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:13:25.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T07:13:25.783+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:13:25.783+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-08 09:00:00+00:00, run_after=2025-10-09 09:00:00+00:00
+[2025-10-09T07:13:25.827+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.366 seconds
+[2025-10-09T07:13:56.033+0000] {processor.py:161} INFO - Started process (PID=464) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:13:56.035+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:13:56.039+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:13:56.039+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:13:56.098+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:13:56.132+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:13:56.132+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T07:13:56.159+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:13:56.159+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-08 09:00:00+00:00, run_after=2025-10-09 09:00:00+00:00
+[2025-10-09T07:13:56.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.162 seconds
+[2025-10-09T07:14:26.497+0000] {processor.py:161} INFO - Started process (PID=475) to work on /opt/airflow/dags/main.py
+[2025-10-09T07:14:26.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T07:14:26.501+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:14:26.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T07:14:26.552+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T07:14:26.581+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:14:26.581+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T07:14:26.607+0000] {logging_mixin.py:188} INFO - [2025-10-09T07:14:26.606+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-08 09:00:00+00:00, run_after=2025-10-09 09:00:00+00:00
+[2025-10-09T07:14:26.628+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.139 seconds
+[2025-10-09T13:56:07.799+0000] {processor.py:161} INFO - Started process (PID=68) to work on /opt/airflow/dags/main.py
+[2025-10-09T13:56:07.804+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T13:56:07.812+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:56:07.811+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T13:56:08.059+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T13:56:08.653+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:56:08.652+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T13:56:08.705+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:56:08.705+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-08 09:00:00+00:00, run_after=2025-10-09 09:00:00+00:00
+[2025-10-09T13:56:08.749+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.976 seconds
+[2025-10-09T13:56:39.318+0000] {processor.py:161} INFO - Started process (PID=75) to work on /opt/airflow/dags/main.py
+[2025-10-09T13:56:39.322+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T13:56:39.336+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:56:39.334+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T13:56:39.623+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T13:56:39.721+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:56:39.720+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T13:56:39.847+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:56:39.846+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T13:56:40.045+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.767 seconds
+[2025-10-09T13:57:10.565+0000] {processor.py:161} INFO - Started process (PID=82) to work on /opt/airflow/dags/main.py
+[2025-10-09T13:57:10.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T13:57:10.576+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:57:10.575+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T13:57:10.749+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T13:57:10.890+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:57:10.889+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T13:57:10.977+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:57:10.976+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T13:57:11.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.517 seconds
+[2025-10-09T13:57:41.573+0000] {processor.py:161} INFO - Started process (PID=89) to work on /opt/airflow/dags/main.py
+[2025-10-09T13:57:41.575+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T13:57:41.577+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:57:41.577+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T13:57:41.631+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T13:57:41.663+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:57:41.663+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T13:57:41.688+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:57:41.687+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T13:57:41.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.146 seconds
+[2025-10-09T13:58:11.983+0000] {processor.py:161} INFO - Started process (PID=96) to work on /opt/airflow/dags/main.py
+[2025-10-09T13:58:11.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T13:58:11.992+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:58:11.991+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T13:58:12.050+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T13:58:12.082+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:58:12.081+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T13:58:12.105+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:58:12.105+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T13:58:12.130+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.170 seconds
+[2025-10-09T13:58:42.344+0000] {processor.py:161} INFO - Started process (PID=103) to work on /opt/airflow/dags/main.py
+[2025-10-09T13:58:42.346+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T13:58:42.351+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:58:42.350+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T13:58:42.419+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T13:58:42.458+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:58:42.458+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T13:58:42.484+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:58:42.483+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T13:58:42.508+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.178 seconds
+[2025-10-09T13:59:12.866+0000] {processor.py:161} INFO - Started process (PID=110) to work on /opt/airflow/dags/main.py
+[2025-10-09T13:59:12.869+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T13:59:12.875+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:59:12.874+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T13:59:13.010+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T13:59:13.063+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:59:13.062+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T13:59:13.124+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:59:13.124+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T13:59:13.166+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.321 seconds
+[2025-10-09T13:59:43.540+0000] {processor.py:161} INFO - Started process (PID=117) to work on /opt/airflow/dags/main.py
+[2025-10-09T13:59:43.541+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T13:59:43.543+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:59:43.543+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T13:59:43.593+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T13:59:43.627+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:59:43.627+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T13:59:43.651+0000] {logging_mixin.py:188} INFO - [2025-10-09T13:59:43.651+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T13:59:43.674+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.142 seconds
+[2025-10-09T14:00:13.861+0000] {processor.py:161} INFO - Started process (PID=124) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:00:13.862+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:00:13.864+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:00:13.864+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:00:13.914+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:00:13.945+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:00:13.945+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:00:13.967+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:00:13.967+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:00:13.988+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.136 seconds
+[2025-10-09T14:00:44.208+0000] {processor.py:161} INFO - Started process (PID=131) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:00:44.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:00:44.211+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:00:44.211+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:00:44.261+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:00:44.290+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:00:44.290+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:00:44.313+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:00:44.313+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:00:44.336+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.136 seconds
+[2025-10-09T14:01:14.664+0000] {processor.py:161} INFO - Started process (PID=138) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:01:14.665+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:01:14.667+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:01:14.667+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:01:14.730+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:01:14.765+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:01:14.765+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:01:14.792+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:01:14.791+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:01:14.816+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.161 seconds
+[2025-10-09T14:01:44.965+0000] {processor.py:161} INFO - Started process (PID=145) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:01:44.967+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:01:44.971+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:01:44.970+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:01:45.112+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:01:45.248+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:01:45.247+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:01:45.337+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:01:45.336+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:01:45.407+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.454 seconds
+[2025-10-09T14:02:15.776+0000] {processor.py:161} INFO - Started process (PID=152) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:02:15.778+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:02:15.784+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:02:15.783+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:02:15.873+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:02:15.909+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:02:15.909+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:02:15.941+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:02:15.941+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:02:15.964+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.208 seconds
+[2025-10-09T14:02:46.093+0000] {processor.py:161} INFO - Started process (PID=159) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:02:46.095+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:02:46.098+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:02:46.097+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:02:46.157+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:02:46.197+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:02:46.197+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:02:46.226+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:02:46.226+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:02:46.257+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.174 seconds
+[2025-10-09T14:03:16.639+0000] {processor.py:161} INFO - Started process (PID=166) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:03:16.641+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:03:16.642+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:03:16.642+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:03:16.694+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:03:16.724+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:03:16.724+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:03:16.748+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:03:16.747+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:03:16.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.138 seconds
+[2025-10-09T14:03:46.984+0000] {processor.py:161} INFO - Started process (PID=173) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:03:46.986+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:03:46.989+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:03:46.989+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:03:47.053+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:03:47.088+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:03:47.088+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:03:47.116+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:03:47.115+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:03:47.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.171 seconds
+[2025-10-09T14:04:17.374+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:04:17.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:04:17.378+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:04:17.377+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:04:17.461+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:04:17.500+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:04:17.500+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:04:17.525+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:04:17.525+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:04:17.551+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.188 seconds
+[2025-10-09T14:04:47.735+0000] {processor.py:161} INFO - Started process (PID=187) to work on /opt/airflow/dags/main.py
+[2025-10-09T14:04:47.737+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/main.py for tasks to queue
+[2025-10-09T14:04:47.739+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:04:47.739+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/main.py
+[2025-10-09T14:04:47.798+0000] {processor.py:840} INFO - DAG(s) 'youtube_data_pipeline' retrieved from /opt/airflow/dags/main.py
+[2025-10-09T14:04:47.833+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:04:47.833+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2025-10-09T14:04:47.861+0000] {logging_mixin.py:188} INFO - [2025-10-09T14:04:47.861+0000] {dag.py:3954} INFO - Setting next_dagrun for youtube_data_pipeline to 2025-10-09 09:00:00+00:00, run_after=2025-10-10 09:00:00+00:00
+[2025-10-09T14:04:47.893+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/main.py took 0.166 seconds
